@@ -10,7 +10,6 @@ All testing is explicitly self-authorized. No external systems are in scope.
 - **Device:** Smart TV (known planted vulnerability)
 - **Network:** Local homelab network (isolated, authorized)
 - **Target IP:** 10.0.0.62
-- **Hostname:** [FILL IN if known]
 
 ## Objectives (in order)
 1. Discover the planted vulnerability via recon and service enumeration
@@ -29,8 +28,8 @@ All testing is explicitly self-authorized. No external systems are in scope.
 ---
 
 ## Network Context
-- **Network range:** [FILL IN — e.g. 192.168.1.0/24]
-- **Your machine IP:** [FILL IN — e.g. 192.168.1.Y]
+- **Network range:** 10.0.0.0/24
+- **Your machine IP:** 10.0.0.28
 - **Isolation:** Homelab network, no production systems present
 
 ---
